@@ -164,9 +164,10 @@
                 // "C:/Users/eric/AppData/Local/Arduino15/packages/esp32/hardware/esp32/2.0.0-alpha1/tools/sdk/esp32s2/include/esp-face/pose_estimation/include",
                 // "C:/Users/eric/AppData/Local/Arduino15/packages/esp32/hardware/esp32/2.0.0-alpha1/tools/sdk/esp32s2/include/esp-face/lib/include",
                 // "C:/Users/eric/AppData/Local/Arduino15/packages/esp32/hardware/esp32/2.0.0-alpha1/tools/sdk/esp32s2/include/fb_gfx/include",
-                "C:/Users/eric/dev/lib/Arduino/libraries/Adafruit_GFX_Library/",
+                // "C:/Users/eric/dev/lib/Arduino/libraries/Adafruit_GFX_Library/",
                 "C:/Users/eric/dev/lib/Arduino/libraries/Adafruit_BusIO/",
                 "C:/Users/eric/dev/lib/Arduino/libraries/TFT_eSPI/",
+                "C:/Users/eric/dev/lib/Arduino/libraries/Adafruit_MLX90640/",
                 // "C:/Users/eric/dev/lib/Arduino/libraries/MCUFRIEND_kbv/",
                 // MY ORIGINAL library includes, manually found
                 // "C:/Users/eric/dev/lib/Arduino/libraries/Adafruit_GFX_Library",

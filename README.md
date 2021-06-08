@@ -1,19 +1,40 @@
-# Adafruit library for 8-bit TFT LCDs such as ILI9325, ILI9328, etc
+# Infrared Camera
 
-This is a library for our Adafruit 16-channel PWM & Servo driver, shield or FeatherWing
+## Hardware
 
-<a href="https://www.adafruit.com/products/335"><img src="assets/image.jpg" height="300"/></a>
+Board                   | Specs
+---                     | ---
+Adafruit ESP32-S2 Metro | ...
+Adafruit MLX90640 55°   | ...
 
-Pick one up today in the adafruit shop!
-  * https://www.adafruit.com/product/335
-  * https://www.adafruit.com/product/376
+## Pinout
 
-These displays use 8-bit parallel to communicate, 12 or 13 pins are required to interface (RST is optional).
+LCD Pin     | ESP32-S2 Metro Pin
+------------|----------------------
+LCD_RD      | A0
+LCD_WR      | A1
+LCD_RS      | A2
+LCD_CS      | A3
+LCD_RST     | A4
+X           | A5
 
-Adafruit invests time and resources providing this open source code, please support Adafruit and open-source hardware by purchasing products from Adafruit!
 
-Written by Limor Fried/Ladyada for Adafruit Industries. BSD license, check license.txt for more information. 
+LCD DataPin | ESP32-S2 Metro Pin
+------------|----------------------
+LCD_D7      | 12
+LCD_D6      | 11
+LCD_D5      | 10
+LCD_D4      |  9
+LCD_D3      |  8
+LCD_D2      |  7
 
-All text above must be included in any redistribution
 
-To install, use the Arduino Library Manager and search for "Adafruit 2.8" TFT display Library" and install the library.
+
+LCD Pin     | ESP32-S2 Metro Pin
+------------|----------------------
+SD_SCK      | 42
+SD_DO       | 21
+SD_DI       | 16
+SD_SS       | 15
+LCD_D1      | 14
+LCD_D0      | 13

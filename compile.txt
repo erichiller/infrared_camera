@@ -306,3 +306,721 @@ time="2021-06-07T06:00:12-06:00" level=info msg="Performing 1200-bps touch reset
 time="2021-06-07T06:00:13-06:00" level=info msg="Waiting for upload port..." phase="board reset"
 time="2021-06-07T06:00:23-06:00" level=info msg="No upload port found, using COM4 as fallback" phase="board reset"
 time="2021-06-07T06:00:30-06:00" level=error msg="Error during Upload: uploading error: uploading error: exit status 1"
+time="2021-06-08T04:53:18-06:00" level=info msg="Config file not found, using default values"
+time="2021-06-08T04:53:18-06:00" level=info msg="arduino-cli.exe version 0.18.3"
+time="2021-06-08T04:53:18-06:00" level=info msg="Checking signature" index="C:\\Users\\eric\\AppData\\Local\\Arduino15\\package_index.json" signatureFile="C:\\Users\\eric\\AppData\\Local\\Arduino15\\package_index.json.sig" trusted=true
+time="2021-06-08T04:53:18-06:00" level=info msg="Checking if CLI is Bundled into the IDE"
+time="2021-06-08T04:53:18-06:00" level=info msg="Loading hardware from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages"
+time="2021-06-08T04:53:18-06:00" level=info msg="Loading package adafruit from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware"
+time="2021-06-08T04:53:18-06:00" level=info msg="Loaded platform" platform="adafruit:avr@1.4.13"
+time="2021-06-08T04:53:18-06:00" level=info msg="Loading package builtin from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin"
+time="2021-06-08T04:53:18-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+time="2021-06-08T04:53:18-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+time="2021-06-08T04:53:18-06:00" level=info msg="Loaded tool" tool="builtin:ctags@5.8-arduino11"
+time="2021-06-08T04:53:18-06:00" level=info msg="Loaded tool" tool="builtin:serial-discovery@1.2.1"
+time="2021-06-08T04:53:18-06:00" level=info msg="Loading package esp32 from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware"
+time="2021-06-08T04:53:18-06:00" level=info msg="Loaded platform" platform="esp32:esp32@2.0.0-alpha1"
+time="2021-06-08T04:53:18-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\tools"
+time="2021-06-08T04:53:18-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\tools"
+time="2021-06-08T04:53:18-06:00" level=info msg="Loaded tool" tool="esp32:esptool_py@3.0.0"
+time="2021-06-08T04:53:18-06:00" level=info msg="Loaded tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2021-06-08T04:53:18-06:00" level=info msg="Loaded tool" tool="esp32:mkspiffs@0.2.3"
+time="2021-06-08T04:53:18-06:00" level=info msg="Loaded tool" tool="esp32:riscv32-esp-elf-gcc@gcc8_4_0-crosstool-ng-1.24.0-123-g64eb9ff"
+time="2021-06-08T04:53:18-06:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T04:53:18-06:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32s2-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T04:53:18-06:00" level=info msg="Loading package esp8266 from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware"
+time="2021-06-08T04:53:18-06:00" level=info msg="Loaded platform" platform="esp8266:esp8266@2.7.4"
+time="2021-06-08T04:53:18-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools"
+time="2021-06-08T04:53:18-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools"
+time="2021-06-08T04:53:18-06:00" level=info msg="Loaded tool" tool="esp8266:mklittlefs@2.5.0-4-fe5bb56"
+time="2021-06-08T04:53:18-06:00" level=info msg="Loaded tool" tool="esp8266:mkspiffs@2.5.0-4-b40a506"
+time="2021-06-08T04:53:18-06:00" level=info msg="Loaded tool" tool="esp8266:python3@3.7.2-post1"
+time="2021-06-08T04:53:18-06:00" level=info msg="Loaded tool" tool="esp8266:xtensa-lx106-elf-gcc@2.5.0-4-b40a506"
+time="2021-06-08T04:53:18-06:00" level=info msg="Adding libraries dir" dir="\\\\hiller.pro\\users\\eric\\Documents\\Arduino\\libraries" location=user
+time="2021-06-08T04:53:18-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\avr\\1.4.13\\libraries" location=platform
+time="2021-06-08T04:53:18-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries" location=platform
+time="2021-06-08T04:53:18-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.0-alpha1\\libraries" location=platform
+time="2021-06-08T04:53:18-06:00" level=info msg="inventory.Store.ConfigFileUsed() C:\\Users\\eric\\AppData\\Local\\Arduino15\\inventory.yaml"
+time="2021-06-08T04:53:18-06:00" level=info msg="inventory.Store.ConfigFileUsed() C:\\Users\\eric\\AppData\\Local\\Arduino15\\inventory.yaml"
+time="2021-06-08T04:53:18-06:00" level=info msg="Searching tools required for board esp32:esp32:adafruit_metro_esp32s2"
+time="2021-06-08T04:53:18-06:00" level=info msg="Adding libraries dir" dir="C:\\Program Files (x86)\\Arduino\\libraries" location=ide
+time="2021-06-08T04:53:18-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.0-alpha1\\libraries" location=platform
+time="2021-06-08T04:53:18-06:00" level=info msg="Adding libraries dir" dir="\\\\hiller.pro\\users\\eric\\Documents\\Arduino\\libraries" location=user
+time="2021-06-08T04:53:23-06:00" level=info msg="Config file not found, using default values"
+time="2021-06-08T04:53:23-06:00" level=info msg="arduino-cli.exe version 0.18.3"
+time="2021-06-08T04:53:23-06:00" level=info msg="Checking signature" index="C:\\Users\\eric\\AppData\\Local\\Arduino15\\package_index.json" signatureFile="C:\\Users\\eric\\AppData\\Local\\Arduino15\\package_index.json.sig" trusted=true
+time="2021-06-08T04:53:23-06:00" level=info msg="Checking if CLI is Bundled into the IDE"
+time="2021-06-08T04:53:23-06:00" level=info msg="Loading hardware from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages"
+time="2021-06-08T04:53:23-06:00" level=info msg="Loading package adafruit from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware"
+time="2021-06-08T04:53:23-06:00" level=info msg="Loaded platform" platform="adafruit:avr@1.4.13"
+time="2021-06-08T04:53:23-06:00" level=info msg="Loading package builtin from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin"
+time="2021-06-08T04:53:23-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+time="2021-06-08T04:53:23-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+time="2021-06-08T04:53:23-06:00" level=info msg="Loaded tool" tool="builtin:ctags@5.8-arduino11"
+time="2021-06-08T04:53:23-06:00" level=info msg="Loaded tool" tool="builtin:serial-discovery@1.2.1"
+time="2021-06-08T04:53:23-06:00" level=info msg="Loading package esp32 from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware"
+time="2021-06-08T04:53:23-06:00" level=info msg="Loaded platform" platform="esp32:esp32@2.0.0-alpha1"
+time="2021-06-08T04:53:23-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\tools"
+time="2021-06-08T04:53:23-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\tools"
+time="2021-06-08T04:53:23-06:00" level=info msg="Loaded tool" tool="esp32:esptool_py@3.0.0"
+time="2021-06-08T04:53:23-06:00" level=info msg="Loaded tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2021-06-08T04:53:23-06:00" level=info msg="Loaded tool" tool="esp32:mkspiffs@0.2.3"
+time="2021-06-08T04:53:23-06:00" level=info msg="Loaded tool" tool="esp32:riscv32-esp-elf-gcc@gcc8_4_0-crosstool-ng-1.24.0-123-g64eb9ff"
+time="2021-06-08T04:53:23-06:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T04:53:23-06:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32s2-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T04:53:23-06:00" level=info msg="Loading package esp8266 from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware"
+time="2021-06-08T04:53:23-06:00" level=info msg="Loaded platform" platform="esp8266:esp8266@2.7.4"
+time="2021-06-08T04:53:23-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools"
+time="2021-06-08T04:53:23-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools"
+time="2021-06-08T04:53:23-06:00" level=info msg="Loaded tool" tool="esp8266:mklittlefs@2.5.0-4-fe5bb56"
+time="2021-06-08T04:53:23-06:00" level=info msg="Loaded tool" tool="esp8266:mkspiffs@2.5.0-4-b40a506"
+time="2021-06-08T04:53:23-06:00" level=info msg="Loaded tool" tool="esp8266:python3@3.7.2-post1"
+time="2021-06-08T04:53:23-06:00" level=info msg="Loaded tool" tool="esp8266:xtensa-lx106-elf-gcc@2.5.0-4-b40a506"
+time="2021-06-08T04:53:23-06:00" level=info msg="Adding libraries dir" dir="\\\\hiller.pro\\users\\eric\\Documents\\Arduino\\libraries" location=user
+time="2021-06-08T04:53:23-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\avr\\1.4.13\\libraries" location=platform
+time="2021-06-08T04:53:23-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.0-alpha1\\libraries" location=platform
+time="2021-06-08T04:53:23-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries" location=platform
+time="2021-06-08T04:53:24-06:00" level=info msg="inventory.Store.ConfigFileUsed() C:\\Users\\eric\\AppData\\Local\\Arduino15\\inventory.yaml"
+time="2021-06-08T04:53:24-06:00" level=info msg="inventory.Store.ConfigFileUsed() C:\\Users\\eric\\AppData\\Local\\Arduino15\\inventory.yaml"
+time="2021-06-08T04:53:24-06:00" level=info msg="Searching tools required for board esp32:esp32:adafruit_metro_esp32s2"
+time="2021-06-08T04:53:24-06:00" level=info msg="Adding libraries dir" dir="C:\\Program Files (x86)\\Arduino\\libraries" location=ide
+time="2021-06-08T04:53:24-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.0-alpha1\\libraries" location=platform
+time="2021-06-08T04:53:24-06:00" level=info msg="Adding libraries dir" dir="\\\\hiller.pro\\users\\eric\\Documents\\Arduino\\libraries" location=user
+time="2021-06-08T04:53:25-06:00" level=info msg="Resolving include TFT_eSPI.h for arch esp32"
+time="2021-06-08T04:53:25-06:00" level=info msg="  found better lib" lib=TFT_eSPI prio=5E0
+time="2021-06-08T04:53:26-06:00" level=info msg="Resolving include SPI.h for arch esp32"
+time="2021-06-08T04:53:26-06:00" level=info msg="  found better lib" lib=SPI prio=5E8
+time="2021-06-08T04:53:27-06:00" level=info msg="Resolving include FS.h for arch esp32"
+time="2021-06-08T04:53:27-06:00" level=info msg="  found better lib" lib=FS prio=5E8
+time="2021-06-08T04:53:32-06:00" level=info msg="Config file not found, using default values"
+time="2021-06-08T04:53:32-06:00" level=info msg="arduino-cli.exe version 0.18.3"
+time="2021-06-08T04:53:32-06:00" level=info msg="Checking signature" index="C:\\Users\\eric\\AppData\\Local\\Arduino15\\package_index.json" signatureFile="C:\\Users\\eric\\AppData\\Local\\Arduino15\\package_index.json.sig" trusted=true
+time="2021-06-08T04:53:32-06:00" level=info msg="Checking if CLI is Bundled into the IDE"
+time="2021-06-08T04:53:32-06:00" level=info msg="Loading hardware from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages"
+time="2021-06-08T04:53:32-06:00" level=info msg="Loading package adafruit from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware"
+time="2021-06-08T04:53:32-06:00" level=info msg="Loaded platform" platform="adafruit:avr@1.4.13"
+time="2021-06-08T04:53:32-06:00" level=info msg="Loading package builtin from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin"
+time="2021-06-08T04:53:32-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+time="2021-06-08T04:53:32-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+time="2021-06-08T04:53:32-06:00" level=info msg="Loaded tool" tool="builtin:ctags@5.8-arduino11"
+time="2021-06-08T04:53:32-06:00" level=info msg="Loaded tool" tool="builtin:serial-discovery@1.2.1"
+time="2021-06-08T04:53:32-06:00" level=info msg="Loading package esp32 from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware"
+time="2021-06-08T04:53:32-06:00" level=info msg="Loaded platform" platform="esp32:esp32@2.0.0-alpha1"
+time="2021-06-08T04:53:32-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\tools"
+time="2021-06-08T04:53:32-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\tools"
+time="2021-06-08T04:53:32-06:00" level=info msg="Loaded tool" tool="esp32:esptool_py@3.0.0"
+time="2021-06-08T04:53:32-06:00" level=info msg="Loaded tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2021-06-08T04:53:32-06:00" level=info msg="Loaded tool" tool="esp32:mkspiffs@0.2.3"
+time="2021-06-08T04:53:32-06:00" level=info msg="Loaded tool" tool="esp32:riscv32-esp-elf-gcc@gcc8_4_0-crosstool-ng-1.24.0-123-g64eb9ff"
+time="2021-06-08T04:53:32-06:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T04:53:32-06:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32s2-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T04:53:32-06:00" level=info msg="Loading package esp8266 from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware"
+time="2021-06-08T04:53:32-06:00" level=info msg="Loaded platform" platform="esp8266:esp8266@2.7.4"
+time="2021-06-08T04:53:32-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools"
+time="2021-06-08T04:53:32-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools"
+time="2021-06-08T04:53:32-06:00" level=info msg="Loaded tool" tool="esp8266:mklittlefs@2.5.0-4-fe5bb56"
+time="2021-06-08T04:53:32-06:00" level=info msg="Loaded tool" tool="esp8266:mkspiffs@2.5.0-4-b40a506"
+time="2021-06-08T04:53:32-06:00" level=info msg="Loaded tool" tool="esp8266:python3@3.7.2-post1"
+time="2021-06-08T04:53:32-06:00" level=info msg="Loaded tool" tool="esp8266:xtensa-lx106-elf-gcc@2.5.0-4-b40a506"
+time="2021-06-08T04:53:32-06:00" level=info msg="Adding libraries dir" dir="\\\\hiller.pro\\users\\eric\\Documents\\Arduino\\libraries" location=user
+time="2021-06-08T04:53:32-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries" location=platform
+time="2021-06-08T04:53:32-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\avr\\1.4.13\\libraries" location=platform
+time="2021-06-08T04:53:32-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.0-alpha1\\libraries" location=platform
+time="2021-06-08T04:53:33-06:00" level=info msg="inventory.Store.ConfigFileUsed() C:\\Users\\eric\\AppData\\Local\\Arduino15\\inventory.yaml"
+time="2021-06-08T04:53:33-06:00" level=info msg="inventory.Store.ConfigFileUsed() C:\\Users\\eric\\AppData\\Local\\Arduino15\\inventory.yaml"
+time="2021-06-08T04:53:33-06:00" level=info msg="Searching tools required for board esp32:esp32:adafruit_metro_esp32s2"
+time="2021-06-08T04:53:33-06:00" level=info msg="Adding libraries dir" dir="C:\\Program Files (x86)\\Arduino\\libraries" location=ide
+time="2021-06-08T04:53:33-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.0-alpha1\\libraries" location=platform
+time="2021-06-08T04:53:33-06:00" level=info msg="Adding libraries dir" dir="\\\\hiller.pro\\users\\eric\\Documents\\Arduino\\libraries" location=user
+time="2021-06-08T05:36:34-06:00" level=info msg="Config file not found, using default values"
+time="2021-06-08T05:36:34-06:00" level=info msg="arduino-cli.exe version 0.18.3"
+time="2021-06-08T05:36:34-06:00" level=info msg="Checking signature" index="C:\\Users\\eric\\AppData\\Local\\Arduino15\\package_index.json" signatureFile="C:\\Users\\eric\\AppData\\Local\\Arduino15\\package_index.json.sig" trusted=true
+time="2021-06-08T05:36:34-06:00" level=info msg="Checking if CLI is Bundled into the IDE"
+time="2021-06-08T05:36:34-06:00" level=info msg="Loading hardware from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages"
+time="2021-06-08T05:36:34-06:00" level=info msg="Loading package adafruit from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware"
+time="2021-06-08T05:36:34-06:00" level=info msg="Loaded platform" platform="adafruit:avr@1.4.13"
+time="2021-06-08T05:36:34-06:00" level=info msg="Loading package builtin from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin"
+time="2021-06-08T05:36:34-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+time="2021-06-08T05:36:34-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+time="2021-06-08T05:36:34-06:00" level=info msg="Loaded tool" tool="builtin:ctags@5.8-arduino11"
+time="2021-06-08T05:36:34-06:00" level=info msg="Loaded tool" tool="builtin:serial-discovery@1.2.1"
+time="2021-06-08T05:36:34-06:00" level=info msg="Loading package esp32 from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware"
+time="2021-06-08T05:36:34-06:00" level=info msg="Loaded platform" platform="esp32:esp32@2.0.0-alpha1"
+time="2021-06-08T05:36:34-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\tools"
+time="2021-06-08T05:36:34-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\tools"
+time="2021-06-08T05:36:34-06:00" level=info msg="Loaded tool" tool="esp32:esptool_py@3.0.0"
+time="2021-06-08T05:36:34-06:00" level=info msg="Loaded tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2021-06-08T05:36:34-06:00" level=info msg="Loaded tool" tool="esp32:mkspiffs@0.2.3"
+time="2021-06-08T05:36:34-06:00" level=info msg="Loaded tool" tool="esp32:riscv32-esp-elf-gcc@gcc8_4_0-crosstool-ng-1.24.0-123-g64eb9ff"
+time="2021-06-08T05:36:34-06:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T05:36:34-06:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32s2-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T05:36:34-06:00" level=info msg="Loading package esp8266 from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware"
+time="2021-06-08T05:36:34-06:00" level=info msg="Loaded platform" platform="esp8266:esp8266@2.7.4"
+time="2021-06-08T05:36:34-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools"
+time="2021-06-08T05:36:34-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools"
+time="2021-06-08T05:36:34-06:00" level=info msg="Loaded tool" tool="esp8266:mklittlefs@2.5.0-4-fe5bb56"
+time="2021-06-08T05:36:34-06:00" level=info msg="Loaded tool" tool="esp8266:mkspiffs@2.5.0-4-b40a506"
+time="2021-06-08T05:36:34-06:00" level=info msg="Loaded tool" tool="esp8266:python3@3.7.2-post1"
+time="2021-06-08T05:36:34-06:00" level=info msg="Loaded tool" tool="esp8266:xtensa-lx106-elf-gcc@2.5.0-4-b40a506"
+time="2021-06-08T05:36:34-06:00" level=info msg="Adding libraries dir" dir="\\\\hiller.pro\\users\\eric\\Documents\\Arduino\\libraries" location=user
+time="2021-06-08T05:36:34-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.0-alpha1\\libraries" location=platform
+time="2021-06-08T05:36:34-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries" location=platform
+time="2021-06-08T05:36:34-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\avr\\1.4.13\\libraries" location=platform
+time="2021-06-08T05:36:34-06:00" level=info msg="inventory.Store.ConfigFileUsed() C:\\Users\\eric\\AppData\\Local\\Arduino15\\inventory.yaml"
+time="2021-06-08T05:36:34-06:00" level=info msg="inventory.Store.ConfigFileUsed() C:\\Users\\eric\\AppData\\Local\\Arduino15\\inventory.yaml"
+time="2021-06-08T05:36:34-06:00" level=info msg="Searching tools required for board esp32:esp32:adafruit_metro_esp32s2"
+time="2021-06-08T05:36:34-06:00" level=info msg="Adding libraries dir" dir="C:\\Program Files (x86)\\Arduino\\libraries" location=ide
+time="2021-06-08T05:36:34-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.0-alpha1\\libraries" location=platform
+time="2021-06-08T05:36:34-06:00" level=info msg="Adding libraries dir" dir="\\\\hiller.pro\\users\\eric\\Documents\\Arduino\\libraries" location=user
+time="2021-06-08T05:36:35-06:00" level=info msg="Resolving include TFT_eSPI.h for arch esp32"
+time="2021-06-08T05:36:35-06:00" level=info msg="  found better lib" lib=TFT_eSPI prio=5E0
+time="2021-06-08T05:36:36-06:00" level=info msg="Resolving include SPI.h for arch esp32"
+time="2021-06-08T05:36:36-06:00" level=info msg="  found better lib" lib=SPI prio=5E8
+time="2021-06-08T05:36:37-06:00" level=info msg="Resolving include FS.h for arch esp32"
+time="2021-06-08T05:36:37-06:00" level=info msg="  found better lib" lib=FS prio=5E8
+time="2021-06-08T05:36:38-06:00" level=info msg="Resolving include SPIFFS.h for arch esp32"
+time="2021-06-08T05:36:38-06:00" level=info msg="  found better lib" lib=SPIFFS prio=5E8
+time="2021-06-08T05:36:40-06:00" level=info msg="Resolving include Adafruit_MLX90640.h for arch esp32"
+time="2021-06-08T05:36:40-06:00" level=info msg="  found better lib" lib=Adafruit_MLX90640 prio=5E0
+time="2021-06-08T05:36:41-06:00" level=info msg="Resolving include Adafruit_I2CDevice.h for arch esp32"
+time="2021-06-08T05:36:41-06:00" level=info msg="  found better lib" lib=Adafruit_BusIO prio=3EC
+time="2021-06-08T05:36:43-06:00" level=info msg="Resolving include Wire.h for arch esp32"
+time="2021-06-08T05:36:43-06:00" level=info msg="  found better lib" lib=Wire prio=5E8
+time="2021-06-08T05:37:02-06:00" level=error msg="Error during build: exit status 1"
+time="2021-06-08T05:42:43-06:00" level=info msg="Config file not found, using default values"
+time="2021-06-08T05:42:43-06:00" level=info msg="arduino-cli.exe version 0.18.3"
+time="2021-06-08T05:42:43-06:00" level=info msg="Checking signature" index="C:\\Users\\eric\\AppData\\Local\\Arduino15\\package_index.json" signatureFile="C:\\Users\\eric\\AppData\\Local\\Arduino15\\package_index.json.sig" trusted=true
+time="2021-06-08T05:42:43-06:00" level=info msg="Checking if CLI is Bundled into the IDE"
+time="2021-06-08T05:42:43-06:00" level=info msg="Loading hardware from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages"
+time="2021-06-08T05:42:43-06:00" level=info msg="Loading package adafruit from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware"
+time="2021-06-08T05:42:43-06:00" level=info msg="Loaded platform" platform="adafruit:avr@1.4.13"
+time="2021-06-08T05:42:43-06:00" level=info msg="Loading package builtin from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin"
+time="2021-06-08T05:42:43-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+time="2021-06-08T05:42:43-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+time="2021-06-08T05:42:43-06:00" level=info msg="Loaded tool" tool="builtin:ctags@5.8-arduino11"
+time="2021-06-08T05:42:43-06:00" level=info msg="Loaded tool" tool="builtin:serial-discovery@1.2.1"
+time="2021-06-08T05:42:43-06:00" level=info msg="Loading package esp32 from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware"
+time="2021-06-08T05:42:43-06:00" level=info msg="Loaded platform" platform="esp32:esp32@2.0.0-alpha1"
+time="2021-06-08T05:42:43-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\tools"
+time="2021-06-08T05:42:43-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\tools"
+time="2021-06-08T05:42:43-06:00" level=info msg="Loaded tool" tool="esp32:esptool_py@3.0.0"
+time="2021-06-08T05:42:43-06:00" level=info msg="Loaded tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2021-06-08T05:42:43-06:00" level=info msg="Loaded tool" tool="esp32:mkspiffs@0.2.3"
+time="2021-06-08T05:42:43-06:00" level=info msg="Loaded tool" tool="esp32:riscv32-esp-elf-gcc@gcc8_4_0-crosstool-ng-1.24.0-123-g64eb9ff"
+time="2021-06-08T05:42:43-06:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T05:42:43-06:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32s2-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T05:42:43-06:00" level=info msg="Loading package esp8266 from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware"
+time="2021-06-08T05:42:43-06:00" level=info msg="Loaded platform" platform="esp8266:esp8266@2.7.4"
+time="2021-06-08T05:42:43-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools"
+time="2021-06-08T05:42:43-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools"
+time="2021-06-08T05:42:43-06:00" level=info msg="Loaded tool" tool="esp8266:mklittlefs@2.5.0-4-fe5bb56"
+time="2021-06-08T05:42:43-06:00" level=info msg="Loaded tool" tool="esp8266:mkspiffs@2.5.0-4-b40a506"
+time="2021-06-08T05:42:43-06:00" level=info msg="Loaded tool" tool="esp8266:python3@3.7.2-post1"
+time="2021-06-08T05:42:43-06:00" level=info msg="Loaded tool" tool="esp8266:xtensa-lx106-elf-gcc@2.5.0-4-b40a506"
+time="2021-06-08T05:42:43-06:00" level=info msg="Adding libraries dir" dir="\\\\hiller.pro\\users\\eric\\Documents\\Arduino\\libraries" location=user
+time="2021-06-08T05:42:43-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.0-alpha1\\libraries" location=platform
+time="2021-06-08T05:42:43-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries" location=platform
+time="2021-06-08T05:42:43-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\avr\\1.4.13\\libraries" location=platform
+time="2021-06-08T05:42:44-06:00" level=info msg="inventory.Store.ConfigFileUsed() C:\\Users\\eric\\AppData\\Local\\Arduino15\\inventory.yaml"
+time="2021-06-08T05:42:44-06:00" level=info msg="inventory.Store.ConfigFileUsed() C:\\Users\\eric\\AppData\\Local\\Arduino15\\inventory.yaml"
+time="2021-06-08T05:42:44-06:00" level=info msg="Searching tools required for board esp32:esp32:adafruit_metro_esp32s2"
+time="2021-06-08T05:42:44-06:00" level=info msg="Adding libraries dir" dir="C:\\Program Files (x86)\\Arduino\\libraries" location=ide
+time="2021-06-08T05:42:44-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.0-alpha1\\libraries" location=platform
+time="2021-06-08T05:42:44-06:00" level=info msg="Adding libraries dir" dir="\\\\hiller.pro\\users\\eric\\Documents\\Arduino\\libraries" location=user
+time="2021-06-08T05:42:45-06:00" level=info msg="Resolving include TFT_eSPI.h for arch esp32"
+time="2021-06-08T05:42:45-06:00" level=info msg="  found better lib" lib=TFT_eSPI prio=5E0
+time="2021-06-08T05:42:46-06:00" level=info msg="Resolving include SPI.h for arch esp32"
+time="2021-06-08T05:42:46-06:00" level=info msg="  found better lib" lib=SPI prio=5E8
+time="2021-06-08T05:42:47-06:00" level=info msg="Resolving include FS.h for arch esp32"
+time="2021-06-08T05:42:47-06:00" level=info msg="  found better lib" lib=FS prio=5E8
+time="2021-06-08T05:42:48-06:00" level=info msg="Resolving include SPIFFS.h for arch esp32"
+time="2021-06-08T05:42:48-06:00" level=info msg="  found better lib" lib=SPIFFS prio=5E8
+time="2021-06-08T05:42:49-06:00" level=info msg="Resolving include Adafruit_MLX90640.h for arch esp32"
+time="2021-06-08T05:42:49-06:00" level=info msg="  found better lib" lib=Adafruit_MLX90640 prio=5E0
+time="2021-06-08T05:42:51-06:00" level=info msg="Resolving include Adafruit_I2CDevice.h for arch esp32"
+time="2021-06-08T05:42:51-06:00" level=info msg="  found better lib" lib=Adafruit_BusIO prio=3EC
+time="2021-06-08T05:42:52-06:00" level=info msg="Resolving include Wire.h for arch esp32"
+time="2021-06-08T05:42:52-06:00" level=info msg="  found better lib" lib=Wire prio=5E8
+time="2021-06-08T05:43:24-06:00" level=info msg="Searching tools required for board esp32:esp32:adafruit_metro_esp32s2"
+time="2021-06-08T05:43:24-06:00" level=info msg="Tool required for upload" tool="esp8266:xtensa-lx106-elf-gcc@2.5.0-4-b40a506"
+time="2021-06-08T05:43:24-06:00" level=info msg="Tool required for upload" tool="esp32:esptool_py@3.0.0"
+time="2021-06-08T05:43:24-06:00" level=info msg="Tool required for upload" tool="esp8266:mklittlefs@2.5.0-4-fe5bb56"
+time="2021-06-08T05:43:24-06:00" level=info msg="Tool required for upload" tool="esp8266:mkspiffs@2.5.0-4-b40a506"
+time="2021-06-08T05:43:24-06:00" level=info msg="Tool required for upload" tool="esp32:riscv32-esp-elf-gcc@gcc8_4_0-crosstool-ng-1.24.0-123-g64eb9ff"
+time="2021-06-08T05:43:24-06:00" level=info msg="Tool required for upload" tool="esp32:xtensa-esp32-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T05:43:24-06:00" level=info msg="Tool required for upload" tool="esp8266:python3@3.7.2-post1"
+time="2021-06-08T05:43:24-06:00" level=info msg="Tool required for upload" tool="builtin:ctags@5.8-arduino11"
+time="2021-06-08T05:43:24-06:00" level=info msg="Tool required for upload" tool="builtin:serial-discovery@1.2.1"
+time="2021-06-08T05:43:24-06:00" level=info msg="Tool required for upload" tool="esp32:xtensa-esp32s2-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T05:43:24-06:00" level=info msg="Waiting for upload port..." phase="board reset"
+time="2021-06-08T05:43:34-06:00" level=info msg="No upload port found, using COM4 as fallback" phase="board reset"
+time="2021-06-08T05:43:34-06:00" level=error msg="Error during Upload: uploading error: uploading error: exit status 4294967295"
+time="2021-06-08T05:58:51-06:00" level=info msg="Config file not found, using default values"
+time="2021-06-08T05:58:51-06:00" level=info msg="arduino-cli.exe version 0.18.3"
+time="2021-06-08T05:58:51-06:00" level=info msg="Checking signature" index="C:\\Users\\eric\\AppData\\Local\\Arduino15\\package_index.json" signatureFile="C:\\Users\\eric\\AppData\\Local\\Arduino15\\package_index.json.sig" trusted=true
+time="2021-06-08T05:58:51-06:00" level=info msg="Checking if CLI is Bundled into the IDE"
+time="2021-06-08T05:58:51-06:00" level=info msg="Loading hardware from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages"
+time="2021-06-08T05:58:51-06:00" level=info msg="Loading package adafruit from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware"
+time="2021-06-08T05:58:51-06:00" level=info msg="Loaded platform" platform="adafruit:avr@1.4.13"
+time="2021-06-08T05:58:51-06:00" level=info msg="Loading package builtin from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin"
+time="2021-06-08T05:58:51-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+time="2021-06-08T05:58:51-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+time="2021-06-08T05:58:51-06:00" level=info msg="Loaded tool" tool="builtin:ctags@5.8-arduino11"
+time="2021-06-08T05:58:51-06:00" level=info msg="Loaded tool" tool="builtin:serial-discovery@1.2.1"
+time="2021-06-08T05:58:51-06:00" level=info msg="Loading package esp32 from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware"
+time="2021-06-08T05:58:51-06:00" level=info msg="Loaded platform" platform="esp32:esp32@2.0.0-alpha1"
+time="2021-06-08T05:58:51-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\tools"
+time="2021-06-08T05:58:51-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\tools"
+time="2021-06-08T05:58:51-06:00" level=info msg="Loaded tool" tool="esp32:esptool_py@3.0.0"
+time="2021-06-08T05:58:51-06:00" level=info msg="Loaded tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2021-06-08T05:58:51-06:00" level=info msg="Loaded tool" tool="esp32:mkspiffs@0.2.3"
+time="2021-06-08T05:58:51-06:00" level=info msg="Loaded tool" tool="esp32:riscv32-esp-elf-gcc@gcc8_4_0-crosstool-ng-1.24.0-123-g64eb9ff"
+time="2021-06-08T05:58:51-06:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T05:58:51-06:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32s2-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T05:58:51-06:00" level=info msg="Loading package esp8266 from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware"
+time="2021-06-08T05:58:51-06:00" level=info msg="Loaded platform" platform="esp8266:esp8266@2.7.4"
+time="2021-06-08T05:58:51-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools"
+time="2021-06-08T05:58:51-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools"
+time="2021-06-08T05:58:51-06:00" level=info msg="Loaded tool" tool="esp8266:mklittlefs@2.5.0-4-fe5bb56"
+time="2021-06-08T05:58:51-06:00" level=info msg="Loaded tool" tool="esp8266:mkspiffs@2.5.0-4-b40a506"
+time="2021-06-08T05:58:51-06:00" level=info msg="Loaded tool" tool="esp8266:python3@3.7.2-post1"
+time="2021-06-08T05:58:51-06:00" level=info msg="Loaded tool" tool="esp8266:xtensa-lx106-elf-gcc@2.5.0-4-b40a506"
+time="2021-06-08T05:58:51-06:00" level=info msg="Adding libraries dir" dir="\\\\hiller.pro\\users\\eric\\Documents\\Arduino\\libraries" location=user
+time="2021-06-08T05:58:51-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries" location=platform
+time="2021-06-08T05:58:51-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\avr\\1.4.13\\libraries" location=platform
+time="2021-06-08T05:58:51-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.0-alpha1\\libraries" location=platform
+time="2021-06-08T05:58:51-06:00" level=info msg="inventory.Store.ConfigFileUsed() C:\\Users\\eric\\AppData\\Local\\Arduino15\\inventory.yaml"
+time="2021-06-08T05:58:51-06:00" level=info msg="inventory.Store.ConfigFileUsed() C:\\Users\\eric\\AppData\\Local\\Arduino15\\inventory.yaml"
+time="2021-06-08T05:58:51-06:00" level=info msg="Searching tools required for board esp32:esp32:adafruit_metro_esp32s2"
+time="2021-06-08T05:58:51-06:00" level=info msg="Adding libraries dir" dir="C:\\Program Files (x86)\\Arduino\\libraries" location=ide
+time="2021-06-08T05:58:51-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.0-alpha1\\libraries" location=platform
+time="2021-06-08T05:58:51-06:00" level=info msg="Adding libraries dir" dir="\\\\hiller.pro\\users\\eric\\Documents\\Arduino\\libraries" location=user
+time="2021-06-08T05:58:53-06:00" level=info msg="Resolving include TFT_eSPI.h for arch esp32"
+time="2021-06-08T05:58:53-06:00" level=info msg="  found better lib" lib=TFT_eSPI prio=5E0
+time="2021-06-08T05:58:54-06:00" level=info msg="Resolving include SPI.h for arch esp32"
+time="2021-06-08T05:58:54-06:00" level=info msg="  found better lib" lib=SPI prio=5E8
+time="2021-06-08T05:58:54-06:00" level=info msg="Resolving include FS.h for arch esp32"
+time="2021-06-08T05:58:54-06:00" level=info msg="  found better lib" lib=FS prio=5E8
+time="2021-06-08T05:58:56-06:00" level=info msg="Resolving include SPIFFS.h for arch esp32"
+time="2021-06-08T05:58:56-06:00" level=info msg="  found better lib" lib=SPIFFS prio=5E8
+time="2021-06-08T05:58:57-06:00" level=info msg="Resolving include Adafruit_MLX90640.h for arch esp32"
+time="2021-06-08T05:58:57-06:00" level=info msg="  found better lib" lib=Adafruit_MLX90640 prio=5E0
+time="2021-06-08T05:58:59-06:00" level=info msg="Resolving include Adafruit_I2CDevice.h for arch esp32"
+time="2021-06-08T05:58:59-06:00" level=info msg="  found better lib" lib=Adafruit_BusIO prio=3EC
+time="2021-06-08T05:59:01-06:00" level=info msg="Resolving include Wire.h for arch esp32"
+time="2021-06-08T05:59:01-06:00" level=info msg="  found better lib" lib=Wire prio=5E8
+time="2021-06-08T05:59:09-06:00" level=info msg="Searching tools required for board esp32:esp32:adafruit_metro_esp32s2"
+time="2021-06-08T05:59:09-06:00" level=info msg="Tool required for upload" tool="esp8266:mkspiffs@2.5.0-4-b40a506"
+time="2021-06-08T05:59:09-06:00" level=info msg="Tool required for upload" tool="esp32:riscv32-esp-elf-gcc@gcc8_4_0-crosstool-ng-1.24.0-123-g64eb9ff"
+time="2021-06-08T05:59:09-06:00" level=info msg="Tool required for upload" tool="esp32:xtensa-esp32-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T05:59:09-06:00" level=info msg="Tool required for upload" tool="esp8266:xtensa-lx106-elf-gcc@2.5.0-4-b40a506"
+time="2021-06-08T05:59:09-06:00" level=info msg="Tool required for upload" tool="builtin:serial-discovery@1.2.1"
+time="2021-06-08T05:59:09-06:00" level=info msg="Tool required for upload" tool="esp32:esptool_py@3.0.0"
+time="2021-06-08T05:59:09-06:00" level=info msg="Tool required for upload" tool="esp8266:mklittlefs@2.5.0-4-fe5bb56"
+time="2021-06-08T05:59:09-06:00" level=info msg="Tool required for upload" tool="esp32:xtensa-esp32s2-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T05:59:09-06:00" level=info msg="Tool required for upload" tool="esp8266:python3@3.7.2-post1"
+time="2021-06-08T05:59:09-06:00" level=info msg="Tool required for upload" tool="builtin:ctags@5.8-arduino11"
+time="2021-06-08T05:59:09-06:00" level=info msg="Performing 1200-bps touch reset on serial port COM4" phase="board reset"
+time="2021-06-08T05:59:10-06:00" level=info msg="Waiting for upload port..." phase="board reset"
+time="2021-06-08T05:59:20-06:00" level=info msg="No upload port found, using COM4 as fallback" phase="board reset"
+time="2021-06-08T05:59:27-06:00" level=error msg="Error during Upload: uploading error: uploading error: exit status 1"
+time="2021-06-08T06:03:47-06:00" level=info msg="Config file not found, using default values"
+time="2021-06-08T06:03:47-06:00" level=info msg="arduino-cli.exe version 0.18.3"
+time="2021-06-08T06:03:47-06:00" level=info msg="Checking signature" index="C:\\Users\\eric\\AppData\\Local\\Arduino15\\package_index.json" signatureFile="C:\\Users\\eric\\AppData\\Local\\Arduino15\\package_index.json.sig" trusted=true
+time="2021-06-08T06:03:47-06:00" level=info msg="Checking if CLI is Bundled into the IDE"
+time="2021-06-08T06:03:47-06:00" level=info msg="Loading hardware from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages"
+time="2021-06-08T06:03:47-06:00" level=info msg="Loading package adafruit from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware"
+time="2021-06-08T06:03:47-06:00" level=info msg="Loaded platform" platform="adafruit:avr@1.4.13"
+time="2021-06-08T06:03:47-06:00" level=info msg="Loading package builtin from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin"
+time="2021-06-08T06:03:47-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+time="2021-06-08T06:03:47-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+time="2021-06-08T06:03:47-06:00" level=info msg="Loaded tool" tool="builtin:ctags@5.8-arduino11"
+time="2021-06-08T06:03:47-06:00" level=info msg="Loaded tool" tool="builtin:serial-discovery@1.2.1"
+time="2021-06-08T06:03:47-06:00" level=info msg="Loading package esp32 from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware"
+time="2021-06-08T06:03:47-06:00" level=info msg="Loaded platform" platform="esp32:esp32@2.0.0-alpha1"
+time="2021-06-08T06:03:47-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\tools"
+time="2021-06-08T06:03:47-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\tools"
+time="2021-06-08T06:03:47-06:00" level=info msg="Loaded tool" tool="esp32:esptool_py@3.0.0"
+time="2021-06-08T06:03:47-06:00" level=info msg="Loaded tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2021-06-08T06:03:47-06:00" level=info msg="Loaded tool" tool="esp32:mkspiffs@0.2.3"
+time="2021-06-08T06:03:47-06:00" level=info msg="Loaded tool" tool="esp32:riscv32-esp-elf-gcc@gcc8_4_0-crosstool-ng-1.24.0-123-g64eb9ff"
+time="2021-06-08T06:03:47-06:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T06:03:47-06:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32s2-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T06:03:47-06:00" level=info msg="Loading package esp8266 from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware"
+time="2021-06-08T06:03:47-06:00" level=info msg="Loaded platform" platform="esp8266:esp8266@2.7.4"
+time="2021-06-08T06:03:47-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools"
+time="2021-06-08T06:03:47-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools"
+time="2021-06-08T06:03:47-06:00" level=info msg="Loaded tool" tool="esp8266:mklittlefs@2.5.0-4-fe5bb56"
+time="2021-06-08T06:03:47-06:00" level=info msg="Loaded tool" tool="esp8266:mkspiffs@2.5.0-4-b40a506"
+time="2021-06-08T06:03:47-06:00" level=info msg="Loaded tool" tool="esp8266:python3@3.7.2-post1"
+time="2021-06-08T06:03:47-06:00" level=info msg="Loaded tool" tool="esp8266:xtensa-lx106-elf-gcc@2.5.0-4-b40a506"
+time="2021-06-08T06:03:47-06:00" level=info msg="Adding libraries dir" dir="\\\\hiller.pro\\users\\eric\\Documents\\Arduino\\libraries" location=user
+time="2021-06-08T06:03:47-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\avr\\1.4.13\\libraries" location=platform
+time="2021-06-08T06:03:47-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.0-alpha1\\libraries" location=platform
+time="2021-06-08T06:03:47-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries" location=platform
+time="2021-06-08T06:03:47-06:00" level=info msg="inventory.Store.ConfigFileUsed() C:\\Users\\eric\\AppData\\Local\\Arduino15\\inventory.yaml"
+time="2021-06-08T06:03:47-06:00" level=info msg="inventory.Store.ConfigFileUsed() C:\\Users\\eric\\AppData\\Local\\Arduino15\\inventory.yaml"
+time="2021-06-08T06:03:47-06:00" level=info msg="Searching tools required for board esp32:esp32:adafruit_metro_esp32s2"
+time="2021-06-08T06:03:47-06:00" level=info msg="Adding libraries dir" dir="C:\\Program Files (x86)\\Arduino\\libraries" location=ide
+time="2021-06-08T06:03:47-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.0-alpha1\\libraries" location=platform
+time="2021-06-08T06:03:47-06:00" level=info msg="Adding libraries dir" dir="\\\\hiller.pro\\users\\eric\\Documents\\Arduino\\libraries" location=user
+time="2021-06-08T06:03:48-06:00" level=info msg="Resolving include TFT_eSPI.h for arch esp32"
+time="2021-06-08T06:03:48-06:00" level=info msg="  found better lib" lib=TFT_eSPI prio=5E0
+time="2021-06-08T06:03:49-06:00" level=info msg="Resolving include SPI.h for arch esp32"
+time="2021-06-08T06:03:49-06:00" level=info msg="  found better lib" lib=SPI prio=5E8
+time="2021-06-08T06:03:50-06:00" level=info msg="Resolving include FS.h for arch esp32"
+time="2021-06-08T06:03:50-06:00" level=info msg="  found better lib" lib=FS prio=5E8
+time="2021-06-08T06:03:51-06:00" level=info msg="Resolving include SPIFFS.h for arch esp32"
+time="2021-06-08T06:03:51-06:00" level=info msg="  found better lib" lib=SPIFFS prio=5E8
+time="2021-06-08T06:03:54-06:00" level=info msg="Resolving include Adafruit_MLX90640.h for arch esp32"
+time="2021-06-08T06:03:54-06:00" level=info msg="  found better lib" lib=Adafruit_MLX90640 prio=5E0
+time="2021-06-08T06:03:55-06:00" level=info msg="Resolving include Adafruit_I2CDevice.h for arch esp32"
+time="2021-06-08T06:03:55-06:00" level=info msg="  found better lib" lib=Adafruit_BusIO prio=3EC
+time="2021-06-08T06:03:57-06:00" level=info msg="Resolving include Wire.h for arch esp32"
+time="2021-06-08T06:03:57-06:00" level=info msg="  found better lib" lib=Wire prio=5E8
+time="2021-06-08T06:04:04-06:00" level=info msg="Searching tools required for board esp32:esp32:adafruit_metro_esp32s2"
+time="2021-06-08T06:04:04-06:00" level=info msg="Tool required for upload" tool="esp8266:python3@3.7.2-post1"
+time="2021-06-08T06:04:04-06:00" level=info msg="Tool required for upload" tool="esp8266:xtensa-lx106-elf-gcc@2.5.0-4-b40a506"
+time="2021-06-08T06:04:04-06:00" level=info msg="Tool required for upload" tool="esp8266:mklittlefs@2.5.0-4-fe5bb56"
+time="2021-06-08T06:04:04-06:00" level=info msg="Tool required for upload" tool="esp8266:mkspiffs@2.5.0-4-b40a506"
+time="2021-06-08T06:04:04-06:00" level=info msg="Tool required for upload" tool="esp32:riscv32-esp-elf-gcc@gcc8_4_0-crosstool-ng-1.24.0-123-g64eb9ff"
+time="2021-06-08T06:04:04-06:00" level=info msg="Tool required for upload" tool="esp32:esptool_py@3.0.0"
+time="2021-06-08T06:04:04-06:00" level=info msg="Tool required for upload" tool="esp32:xtensa-esp32-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T06:04:04-06:00" level=info msg="Tool required for upload" tool="esp32:xtensa-esp32s2-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T06:04:04-06:00" level=info msg="Tool required for upload" tool="builtin:ctags@5.8-arduino11"
+time="2021-06-08T06:04:04-06:00" level=info msg="Tool required for upload" tool="builtin:serial-discovery@1.2.1"
+time="2021-06-08T06:04:04-06:00" level=info msg="Performing 1200-bps touch reset on serial port COM4" phase="board reset"
+time="2021-06-08T06:04:05-06:00" level=info msg="Waiting for upload port..." phase="board reset"
+time="2021-06-08T06:04:15-06:00" level=info msg="No upload port found, using COM4 as fallback" phase="board reset"
+time="2021-06-08T06:04:22-06:00" level=error msg="Error during Upload: uploading error: uploading error: exit status 1"
+time="2021-06-08T06:35:11-06:00" level=info msg="Config file not found, using default values"
+time="2021-06-08T06:35:11-06:00" level=info msg="arduino-cli.exe version 0.18.3"
+time="2021-06-08T06:35:11-06:00" level=info msg="Checking signature" index="C:\\Users\\eric\\AppData\\Local\\Arduino15\\package_index.json" signatureFile="C:\\Users\\eric\\AppData\\Local\\Arduino15\\package_index.json.sig" trusted=true
+time="2021-06-08T06:35:11-06:00" level=info msg="Checking if CLI is Bundled into the IDE"
+time="2021-06-08T06:35:11-06:00" level=info msg="Loading hardware from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages"
+time="2021-06-08T06:35:11-06:00" level=info msg="Loading package adafruit from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware"
+time="2021-06-08T06:35:11-06:00" level=info msg="Loaded platform" platform="adafruit:avr@1.4.13"
+time="2021-06-08T06:35:11-06:00" level=info msg="Loading package builtin from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin"
+time="2021-06-08T06:35:11-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+time="2021-06-08T06:35:11-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+time="2021-06-08T06:35:11-06:00" level=info msg="Loaded tool" tool="builtin:ctags@5.8-arduino11"
+time="2021-06-08T06:35:11-06:00" level=info msg="Loaded tool" tool="builtin:serial-discovery@1.2.1"
+time="2021-06-08T06:35:11-06:00" level=info msg="Loading package esp32 from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware"
+time="2021-06-08T06:35:11-06:00" level=info msg="Loaded platform" platform="esp32:esp32@2.0.0-alpha1"
+time="2021-06-08T06:35:11-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\tools"
+time="2021-06-08T06:35:11-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\tools"
+time="2021-06-08T06:35:11-06:00" level=info msg="Loaded tool" tool="esp32:esptool_py@3.0.0"
+time="2021-06-08T06:35:11-06:00" level=info msg="Loaded tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2021-06-08T06:35:11-06:00" level=info msg="Loaded tool" tool="esp32:mkspiffs@0.2.3"
+time="2021-06-08T06:35:11-06:00" level=info msg="Loaded tool" tool="esp32:riscv32-esp-elf-gcc@gcc8_4_0-crosstool-ng-1.24.0-123-g64eb9ff"
+time="2021-06-08T06:35:11-06:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T06:35:11-06:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32s2-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T06:35:11-06:00" level=info msg="Loading package esp8266 from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware"
+time="2021-06-08T06:35:11-06:00" level=info msg="Loaded platform" platform="esp8266:esp8266@2.7.4"
+time="2021-06-08T06:35:11-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools"
+time="2021-06-08T06:35:11-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools"
+time="2021-06-08T06:35:11-06:00" level=info msg="Loaded tool" tool="esp8266:mklittlefs@2.5.0-4-fe5bb56"
+time="2021-06-08T06:35:11-06:00" level=info msg="Loaded tool" tool="esp8266:mkspiffs@2.5.0-4-b40a506"
+time="2021-06-08T06:35:11-06:00" level=info msg="Loaded tool" tool="esp8266:python3@3.7.2-post1"
+time="2021-06-08T06:35:11-06:00" level=info msg="Loaded tool" tool="esp8266:xtensa-lx106-elf-gcc@2.5.0-4-b40a506"
+time="2021-06-08T06:35:11-06:00" level=info msg="Adding libraries dir" dir="\\\\hiller.pro\\users\\eric\\Documents\\Arduino\\libraries" location=user
+time="2021-06-08T06:35:11-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\avr\\1.4.13\\libraries" location=platform
+time="2021-06-08T06:35:11-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.0-alpha1\\libraries" location=platform
+time="2021-06-08T06:35:11-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries" location=platform
+time="2021-06-08T06:35:11-06:00" level=info msg="inventory.Store.ConfigFileUsed() C:\\Users\\eric\\AppData\\Local\\Arduino15\\inventory.yaml"
+time="2021-06-08T06:35:11-06:00" level=info msg="inventory.Store.ConfigFileUsed() C:\\Users\\eric\\AppData\\Local\\Arduino15\\inventory.yaml"
+time="2021-06-08T06:35:11-06:00" level=info msg="Searching tools required for board esp32:esp32:adafruit_metro_esp32s2"
+time="2021-06-08T06:35:11-06:00" level=info msg="Adding libraries dir" dir="C:\\Program Files (x86)\\Arduino\\libraries" location=ide
+time="2021-06-08T06:35:11-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.0-alpha1\\libraries" location=platform
+time="2021-06-08T06:35:11-06:00" level=info msg="Adding libraries dir" dir="\\\\hiller.pro\\users\\eric\\Documents\\Arduino\\libraries" location=user
+time="2021-06-08T06:35:12-06:00" level=info msg="Resolving include TFT_eSPI.h for arch esp32"
+time="2021-06-08T06:35:12-06:00" level=info msg="  found better lib" lib=TFT_eSPI prio=5E0
+time="2021-06-08T06:35:13-06:00" level=info msg="Resolving include SPI.h for arch esp32"
+time="2021-06-08T06:35:13-06:00" level=info msg="  found better lib" lib=SPI prio=5E8
+time="2021-06-08T06:35:14-06:00" level=info msg="Resolving include FS.h for arch esp32"
+time="2021-06-08T06:35:14-06:00" level=info msg="  found better lib" lib=FS prio=5E8
+time="2021-06-08T06:35:15-06:00" level=info msg="Resolving include SPIFFS.h for arch esp32"
+time="2021-06-08T06:35:15-06:00" level=info msg="  found better lib" lib=SPIFFS prio=5E8
+time="2021-06-08T06:35:17-06:00" level=info msg="Resolving include Adafruit_MLX90640.h for arch esp32"
+time="2021-06-08T06:35:17-06:00" level=info msg="  found better lib" lib=Adafruit_MLX90640 prio=5E0
+time="2021-06-08T06:35:18-06:00" level=info msg="Resolving include Adafruit_I2CDevice.h for arch esp32"
+time="2021-06-08T06:35:18-06:00" level=info msg="  found better lib" lib=Adafruit_BusIO prio=3EC
+time="2021-06-08T06:35:20-06:00" level=info msg="Resolving include Wire.h for arch esp32"
+time="2021-06-08T06:35:20-06:00" level=info msg="  found better lib" lib=Wire prio=5E8
+time="2021-06-08T06:35:30-06:00" level=info msg="Searching tools required for board esp32:esp32:adafruit_metro_esp32s2"
+time="2021-06-08T06:35:30-06:00" level=info msg="Tool required for upload" tool="esp8266:mkspiffs@2.5.0-4-b40a506"
+time="2021-06-08T06:35:30-06:00" level=info msg="Tool required for upload" tool="esp32:riscv32-esp-elf-gcc@gcc8_4_0-crosstool-ng-1.24.0-123-g64eb9ff"
+time="2021-06-08T06:35:30-06:00" level=info msg="Tool required for upload" tool="esp8266:python3@3.7.2-post1"
+time="2021-06-08T06:35:30-06:00" level=info msg="Tool required for upload" tool="builtin:serial-discovery@1.2.1"
+time="2021-06-08T06:35:30-06:00" level=info msg="Tool required for upload" tool="esp32:xtensa-esp32s2-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T06:35:30-06:00" level=info msg="Tool required for upload" tool="esp32:esptool_py@3.0.0"
+time="2021-06-08T06:35:30-06:00" level=info msg="Tool required for upload" tool="esp8266:mklittlefs@2.5.0-4-fe5bb56"
+time="2021-06-08T06:35:30-06:00" level=info msg="Tool required for upload" tool="esp32:xtensa-esp32-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T06:35:30-06:00" level=info msg="Tool required for upload" tool="esp8266:xtensa-lx106-elf-gcc@2.5.0-4-b40a506"
+time="2021-06-08T06:35:30-06:00" level=info msg="Tool required for upload" tool="builtin:ctags@5.8-arduino11"
+time="2021-06-08T06:35:30-06:00" level=info msg="Performing 1200-bps touch reset on serial port COM4" phase="board reset"
+time="2021-06-08T06:35:30-06:00" level=info msg="Waiting for upload port..." phase="board reset"
+time="2021-06-08T06:35:40-06:00" level=info msg="No upload port found, using COM4 as fallback" phase="board reset"
+time="2021-06-08T06:35:47-06:00" level=error msg="Error during Upload: uploading error: uploading error: exit status 1"
+time="2021-06-08T06:38:23-06:00" level=info msg="Config file not found, using default values"
+time="2021-06-08T06:38:23-06:00" level=info msg="arduino-cli.exe version 0.18.3"
+time="2021-06-08T06:38:23-06:00" level=info msg="Checking signature" index="C:\\Users\\eric\\AppData\\Local\\Arduino15\\package_index.json" signatureFile="C:\\Users\\eric\\AppData\\Local\\Arduino15\\package_index.json.sig" trusted=true
+time="2021-06-08T06:38:23-06:00" level=info msg="Checking if CLI is Bundled into the IDE"
+time="2021-06-08T06:38:23-06:00" level=info msg="Loading hardware from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages"
+time="2021-06-08T06:38:23-06:00" level=info msg="Loading package adafruit from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware"
+time="2021-06-08T06:38:23-06:00" level=info msg="Loaded platform" platform="adafruit:avr@1.4.13"
+time="2021-06-08T06:38:23-06:00" level=info msg="Loading package builtin from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin"
+time="2021-06-08T06:38:23-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+time="2021-06-08T06:38:23-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+time="2021-06-08T06:38:23-06:00" level=info msg="Loaded tool" tool="builtin:ctags@5.8-arduino11"
+time="2021-06-08T06:38:23-06:00" level=info msg="Loaded tool" tool="builtin:serial-discovery@1.2.1"
+time="2021-06-08T06:38:23-06:00" level=info msg="Loading package esp32 from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware"
+time="2021-06-08T06:38:23-06:00" level=info msg="Loaded platform" platform="esp32:esp32@2.0.0-alpha1"
+time="2021-06-08T06:38:23-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\tools"
+time="2021-06-08T06:38:23-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\tools"
+time="2021-06-08T06:38:23-06:00" level=info msg="Loaded tool" tool="esp32:esptool_py@3.0.0"
+time="2021-06-08T06:38:23-06:00" level=info msg="Loaded tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2021-06-08T06:38:23-06:00" level=info msg="Loaded tool" tool="esp32:mkspiffs@0.2.3"
+time="2021-06-08T06:38:23-06:00" level=info msg="Loaded tool" tool="esp32:riscv32-esp-elf-gcc@gcc8_4_0-crosstool-ng-1.24.0-123-g64eb9ff"
+time="2021-06-08T06:38:23-06:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T06:38:23-06:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32s2-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T06:38:23-06:00" level=info msg="Loading package esp8266 from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware"
+time="2021-06-08T06:38:23-06:00" level=info msg="Loaded platform" platform="esp8266:esp8266@2.7.4"
+time="2021-06-08T06:38:23-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools"
+time="2021-06-08T06:38:23-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools"
+time="2021-06-08T06:38:23-06:00" level=info msg="Loaded tool" tool="esp8266:mklittlefs@2.5.0-4-fe5bb56"
+time="2021-06-08T06:38:23-06:00" level=info msg="Loaded tool" tool="esp8266:mkspiffs@2.5.0-4-b40a506"
+time="2021-06-08T06:38:23-06:00" level=info msg="Loaded tool" tool="esp8266:python3@3.7.2-post1"
+time="2021-06-08T06:38:23-06:00" level=info msg="Loaded tool" tool="esp8266:xtensa-lx106-elf-gcc@2.5.0-4-b40a506"
+time="2021-06-08T06:38:23-06:00" level=info msg="Adding libraries dir" dir="\\\\hiller.pro\\users\\eric\\Documents\\Arduino\\libraries" location=user
+time="2021-06-08T06:38:23-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\avr\\1.4.13\\libraries" location=platform
+time="2021-06-08T06:38:23-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.0-alpha1\\libraries" location=platform
+time="2021-06-08T06:38:23-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries" location=platform
+time="2021-06-08T06:38:23-06:00" level=info msg="inventory.Store.ConfigFileUsed() C:\\Users\\eric\\AppData\\Local\\Arduino15\\inventory.yaml"
+time="2021-06-08T06:38:23-06:00" level=info msg="inventory.Store.ConfigFileUsed() C:\\Users\\eric\\AppData\\Local\\Arduino15\\inventory.yaml"
+time="2021-06-08T06:38:23-06:00" level=info msg="Searching tools required for board esp32:esp32:adafruit_metro_esp32s2"
+time="2021-06-08T06:38:23-06:00" level=info msg="Adding libraries dir" dir="C:\\Program Files (x86)\\Arduino\\libraries" location=ide
+time="2021-06-08T06:38:23-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.0-alpha1\\libraries" location=platform
+time="2021-06-08T06:38:23-06:00" level=info msg="Adding libraries dir" dir="\\\\hiller.pro\\users\\eric\\Documents\\Arduino\\libraries" location=user
+time="2021-06-08T06:38:24-06:00" level=info msg="Resolving include TFT_eSPI.h for arch esp32"
+time="2021-06-08T06:38:24-06:00" level=info msg="  found better lib" lib=TFT_eSPI prio=5E0
+time="2021-06-08T06:38:25-06:00" level=info msg="Resolving include SPI.h for arch esp32"
+time="2021-06-08T06:38:25-06:00" level=info msg="  found better lib" lib=SPI prio=5E8
+time="2021-06-08T06:38:26-06:00" level=info msg="Resolving include FS.h for arch esp32"
+time="2021-06-08T06:38:26-06:00" level=info msg="  found better lib" lib=FS prio=5E8
+time="2021-06-08T06:38:27-06:00" level=info msg="Resolving include SPIFFS.h for arch esp32"
+time="2021-06-08T06:38:27-06:00" level=info msg="  found better lib" lib=SPIFFS prio=5E8
+time="2021-06-08T06:38:29-06:00" level=info msg="Resolving include Adafruit_MLX90640.h for arch esp32"
+time="2021-06-08T06:38:29-06:00" level=info msg="  found better lib" lib=Adafruit_MLX90640 prio=5E0
+time="2021-06-08T06:38:30-06:00" level=info msg="Resolving include Adafruit_I2CDevice.h for arch esp32"
+time="2021-06-08T06:38:30-06:00" level=info msg="  found better lib" lib=Adafruit_BusIO prio=3EC
+time="2021-06-08T06:38:32-06:00" level=info msg="Resolving include Wire.h for arch esp32"
+time="2021-06-08T06:38:32-06:00" level=info msg="  found better lib" lib=Wire prio=5E8
+time="2021-06-08T06:38:39-06:00" level=info msg="Searching tools required for board esp32:esp32:adafruit_metro_esp32s2"
+time="2021-06-08T06:38:39-06:00" level=info msg="Tool required for upload" tool="builtin:serial-discovery@1.2.1"
+time="2021-06-08T06:38:39-06:00" level=info msg="Tool required for upload" tool="esp32:riscv32-esp-elf-gcc@gcc8_4_0-crosstool-ng-1.24.0-123-g64eb9ff"
+time="2021-06-08T06:38:39-06:00" level=info msg="Tool required for upload" tool="esp32:xtensa-esp32-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T06:38:39-06:00" level=info msg="Tool required for upload" tool="esp32:xtensa-esp32s2-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T06:38:39-06:00" level=info msg="Tool required for upload" tool="esp8266:mklittlefs@2.5.0-4-fe5bb56"
+time="2021-06-08T06:38:39-06:00" level=info msg="Tool required for upload" tool="builtin:ctags@5.8-arduino11"
+time="2021-06-08T06:38:39-06:00" level=info msg="Tool required for upload" tool="esp32:esptool_py@3.0.0"
+time="2021-06-08T06:38:39-06:00" level=info msg="Tool required for upload" tool="esp8266:mkspiffs@2.5.0-4-b40a506"
+time="2021-06-08T06:38:39-06:00" level=info msg="Tool required for upload" tool="esp8266:python3@3.7.2-post1"
+time="2021-06-08T06:38:39-06:00" level=info msg="Tool required for upload" tool="esp8266:xtensa-lx106-elf-gcc@2.5.0-4-b40a506"
+time="2021-06-08T06:38:39-06:00" level=info msg="Performing 1200-bps touch reset on serial port COM4" phase="board reset"
+time="2021-06-08T06:38:40-06:00" level=info msg="Waiting for upload port..." phase="board reset"
+time="2021-06-08T06:38:50-06:00" level=info msg="No upload port found, using COM4 as fallback" phase="board reset"
+time="2021-06-08T06:38:57-06:00" level=error msg="Error during Upload: uploading error: uploading error: exit status 1"
+time="2021-06-08T06:47:52-06:00" level=info msg="Config file not found, using default values"
+time="2021-06-08T06:47:52-06:00" level=info msg="arduino-cli.exe version 0.18.3"
+time="2021-06-08T06:47:52-06:00" level=info msg="Checking signature" index="C:\\Users\\eric\\AppData\\Local\\Arduino15\\package_index.json" signatureFile="C:\\Users\\eric\\AppData\\Local\\Arduino15\\package_index.json.sig" trusted=true
+time="2021-06-08T06:47:52-06:00" level=info msg="Checking if CLI is Bundled into the IDE"
+time="2021-06-08T06:47:52-06:00" level=info msg="Loading hardware from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages"
+time="2021-06-08T06:47:52-06:00" level=info msg="Loading package adafruit from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware"
+time="2021-06-08T06:47:52-06:00" level=info msg="Loaded platform" platform="adafruit:avr@1.4.13"
+time="2021-06-08T06:47:52-06:00" level=info msg="Loading package builtin from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin"
+time="2021-06-08T06:47:52-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+time="2021-06-08T06:47:52-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+time="2021-06-08T06:47:52-06:00" level=info msg="Loaded tool" tool="builtin:ctags@5.8-arduino11"
+time="2021-06-08T06:47:52-06:00" level=info msg="Loaded tool" tool="builtin:serial-discovery@1.2.1"
+time="2021-06-08T06:47:52-06:00" level=info msg="Loading package esp32 from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware"
+time="2021-06-08T06:47:52-06:00" level=info msg="Loaded platform" platform="esp32:esp32@2.0.0-alpha1"
+time="2021-06-08T06:47:52-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\tools"
+time="2021-06-08T06:47:52-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\tools"
+time="2021-06-08T06:47:52-06:00" level=info msg="Loaded tool" tool="esp32:esptool_py@3.0.0"
+time="2021-06-08T06:47:52-06:00" level=info msg="Loaded tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2021-06-08T06:47:52-06:00" level=info msg="Loaded tool" tool="esp32:mkspiffs@0.2.3"
+time="2021-06-08T06:47:52-06:00" level=info msg="Loaded tool" tool="esp32:riscv32-esp-elf-gcc@gcc8_4_0-crosstool-ng-1.24.0-123-g64eb9ff"
+time="2021-06-08T06:47:52-06:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T06:47:52-06:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32s2-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T06:47:52-06:00" level=info msg="Loading package esp8266 from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware"
+time="2021-06-08T06:47:52-06:00" level=info msg="Loaded platform" platform="esp8266:esp8266@2.7.4"
+time="2021-06-08T06:47:52-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools"
+time="2021-06-08T06:47:52-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools"
+time="2021-06-08T06:47:52-06:00" level=info msg="Loaded tool" tool="esp8266:mklittlefs@2.5.0-4-fe5bb56"
+time="2021-06-08T06:47:52-06:00" level=info msg="Loaded tool" tool="esp8266:mkspiffs@2.5.0-4-b40a506"
+time="2021-06-08T06:47:52-06:00" level=info msg="Loaded tool" tool="esp8266:python3@3.7.2-post1"
+time="2021-06-08T06:47:52-06:00" level=info msg="Loaded tool" tool="esp8266:xtensa-lx106-elf-gcc@2.5.0-4-b40a506"
+time="2021-06-08T06:47:52-06:00" level=info msg="Adding libraries dir" dir="\\\\hiller.pro\\users\\eric\\Documents\\Arduino\\libraries" location=user
+time="2021-06-08T06:47:52-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.0-alpha1\\libraries" location=platform
+time="2021-06-08T06:47:52-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries" location=platform
+time="2021-06-08T06:47:52-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\avr\\1.4.13\\libraries" location=platform
+time="2021-06-08T06:47:52-06:00" level=info msg="inventory.Store.ConfigFileUsed() C:\\Users\\eric\\AppData\\Local\\Arduino15\\inventory.yaml"
+time="2021-06-08T06:47:52-06:00" level=info msg="inventory.Store.ConfigFileUsed() C:\\Users\\eric\\AppData\\Local\\Arduino15\\inventory.yaml"
+time="2021-06-08T06:47:52-06:00" level=info msg="Searching tools required for board esp32:esp32:adafruit_metro_esp32s2"
+time="2021-06-08T06:47:52-06:00" level=info msg="Adding libraries dir" dir="C:\\Program Files (x86)\\Arduino\\libraries" location=ide
+time="2021-06-08T06:47:52-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.0-alpha1\\libraries" location=platform
+time="2021-06-08T06:47:52-06:00" level=info msg="Adding libraries dir" dir="\\\\hiller.pro\\users\\eric\\Documents\\Arduino\\libraries" location=user
+time="2021-06-08T06:47:53-06:00" level=info msg="Resolving include TFT_eSPI.h for arch esp32"
+time="2021-06-08T06:47:53-06:00" level=info msg="  found better lib" lib=TFT_eSPI prio=5E0
+time="2021-06-08T06:47:54-06:00" level=info msg="Resolving include SPI.h for arch esp32"
+time="2021-06-08T06:47:54-06:00" level=info msg="  found better lib" lib=SPI prio=5E8
+time="2021-06-08T06:47:55-06:00" level=info msg="Resolving include FS.h for arch esp32"
+time="2021-06-08T06:47:55-06:00" level=info msg="  found better lib" lib=FS prio=5E8
+time="2021-06-08T06:47:56-06:00" level=info msg="Resolving include SPIFFS.h for arch esp32"
+time="2021-06-08T06:47:56-06:00" level=info msg="  found better lib" lib=SPIFFS prio=5E8
+time="2021-06-08T06:47:58-06:00" level=info msg="Resolving include Adafruit_MLX90640.h for arch esp32"
+time="2021-06-08T06:47:58-06:00" level=info msg="  found better lib" lib=Adafruit_MLX90640 prio=5E0
+time="2021-06-08T06:48:00-06:00" level=info msg="Resolving include Adafruit_I2CDevice.h for arch esp32"
+time="2021-06-08T06:48:00-06:00" level=info msg="  found better lib" lib=Adafruit_BusIO prio=3EC
+time="2021-06-08T06:48:02-06:00" level=info msg="Resolving include Wire.h for arch esp32"
+time="2021-06-08T06:48:02-06:00" level=info msg="  found better lib" lib=Wire prio=5E8
+time="2021-06-08T06:48:07-06:00" level=error msg="Error during build: exit status 1"
+time="2021-06-08T07:15:12-06:00" level=info msg="Config file not found, using default values"
+time="2021-06-08T07:15:12-06:00" level=info msg="arduino-cli.exe version 0.18.3"
+time="2021-06-08T07:15:12-06:00" level=info msg="Checking signature" index="C:\\Users\\eric\\AppData\\Local\\Arduino15\\package_index.json" signatureFile="C:\\Users\\eric\\AppData\\Local\\Arduino15\\package_index.json.sig" trusted=true
+time="2021-06-08T07:15:12-06:00" level=info msg="Checking if CLI is Bundled into the IDE"
+time="2021-06-08T07:15:12-06:00" level=info msg="Loading hardware from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages"
+time="2021-06-08T07:15:12-06:00" level=info msg="Loading package adafruit from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware"
+time="2021-06-08T07:15:12-06:00" level=info msg="Loaded platform" platform="adafruit:avr@1.4.13"
+time="2021-06-08T07:15:12-06:00" level=info msg="Loading package builtin from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin"
+time="2021-06-08T07:15:12-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+time="2021-06-08T07:15:12-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+time="2021-06-08T07:15:12-06:00" level=info msg="Loaded tool" tool="builtin:ctags@5.8-arduino11"
+time="2021-06-08T07:15:12-06:00" level=info msg="Loaded tool" tool="builtin:serial-discovery@1.2.1"
+time="2021-06-08T07:15:12-06:00" level=info msg="Loading package esp32 from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware"
+time="2021-06-08T07:15:12-06:00" level=info msg="Loaded platform" platform="esp32:esp32@2.0.0-alpha1"
+time="2021-06-08T07:15:12-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\tools"
+time="2021-06-08T07:15:12-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\tools"
+time="2021-06-08T07:15:12-06:00" level=info msg="Loaded tool" tool="esp32:esptool_py@3.0.0"
+time="2021-06-08T07:15:12-06:00" level=info msg="Loaded tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2021-06-08T07:15:12-06:00" level=info msg="Loaded tool" tool="esp32:mkspiffs@0.2.3"
+time="2021-06-08T07:15:12-06:00" level=info msg="Loaded tool" tool="esp32:riscv32-esp-elf-gcc@gcc8_4_0-crosstool-ng-1.24.0-123-g64eb9ff"
+time="2021-06-08T07:15:12-06:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T07:15:12-06:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32s2-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T07:15:12-06:00" level=info msg="Loading package esp8266 from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware"
+time="2021-06-08T07:15:12-06:00" level=info msg="Loaded platform" platform="esp8266:esp8266@2.7.4"
+time="2021-06-08T07:15:12-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools"
+time="2021-06-08T07:15:12-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools"
+time="2021-06-08T07:15:12-06:00" level=info msg="Loaded tool" tool="esp8266:mklittlefs@2.5.0-4-fe5bb56"
+time="2021-06-08T07:15:12-06:00" level=info msg="Loaded tool" tool="esp8266:mkspiffs@2.5.0-4-b40a506"
+time="2021-06-08T07:15:12-06:00" level=info msg="Loaded tool" tool="esp8266:python3@3.7.2-post1"
+time="2021-06-08T07:15:12-06:00" level=info msg="Loaded tool" tool="esp8266:xtensa-lx106-elf-gcc@2.5.0-4-b40a506"
+time="2021-06-08T07:15:12-06:00" level=info msg="Adding libraries dir" dir="\\\\hiller.pro\\users\\eric\\Documents\\Arduino\\libraries" location=user
+time="2021-06-08T07:15:12-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.0-alpha1\\libraries" location=platform
+time="2021-06-08T07:15:12-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\avr\\1.4.13\\libraries" location=platform
+time="2021-06-08T07:15:12-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries" location=platform
+time="2021-06-08T07:15:12-06:00" level=info msg="inventory.Store.ConfigFileUsed() C:\\Users\\eric\\AppData\\Local\\Arduino15\\inventory.yaml"
+time="2021-06-08T07:15:12-06:00" level=info msg="inventory.Store.ConfigFileUsed() C:\\Users\\eric\\AppData\\Local\\Arduino15\\inventory.yaml"
+time="2021-06-08T07:15:12-06:00" level=info msg="Searching tools required for board esp32:esp32:adafruit_metro_esp32s2"
+time="2021-06-08T07:15:12-06:00" level=info msg="Adding libraries dir" dir="C:\\Program Files (x86)\\Arduino\\libraries" location=ide
+time="2021-06-08T07:15:12-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.0-alpha1\\libraries" location=platform
+time="2021-06-08T07:15:12-06:00" level=info msg="Adding libraries dir" dir="\\\\hiller.pro\\users\\eric\\Documents\\Arduino\\libraries" location=user
+time="2021-06-08T07:15:13-06:00" level=info msg="Resolving include TFT_eSPI.h for arch esp32"
+time="2021-06-08T07:15:13-06:00" level=info msg="  found better lib" lib=TFT_eSPI prio=5E0
+time="2021-06-08T07:15:14-06:00" level=info msg="Resolving include SPI.h for arch esp32"
+time="2021-06-08T07:15:14-06:00" level=info msg="  found better lib" lib=SPI prio=5E8
+time="2021-06-08T07:15:15-06:00" level=info msg="Resolving include FS.h for arch esp32"
+time="2021-06-08T07:15:15-06:00" level=info msg="  found better lib" lib=FS prio=5E8
+time="2021-06-08T07:15:16-06:00" level=info msg="Resolving include SPIFFS.h for arch esp32"
+time="2021-06-08T07:15:16-06:00" level=info msg="  found better lib" lib=SPIFFS prio=5E8
+time="2021-06-08T07:15:18-06:00" level=info msg="Resolving include Adafruit_MLX90640.h for arch esp32"
+time="2021-06-08T07:15:18-06:00" level=info msg="  found better lib" lib=Adafruit_MLX90640 prio=5E0
+time="2021-06-08T07:15:19-06:00" level=info msg="Resolving include Adafruit_I2CDevice.h for arch esp32"
+time="2021-06-08T07:15:19-06:00" level=info msg="  found better lib" lib=Adafruit_BusIO prio=3EC
+time="2021-06-08T07:15:21-06:00" level=info msg="Resolving include Wire.h for arch esp32"
+time="2021-06-08T07:15:21-06:00" level=info msg="  found better lib" lib=Wire prio=5E8
+time="2021-06-08T07:15:30-06:00" level=info msg="Searching tools required for board esp32:esp32:adafruit_metro_esp32s2"
+time="2021-06-08T07:15:30-06:00" level=info msg="Tool required for upload" tool="builtin:serial-discovery@1.2.1"
+time="2021-06-08T07:15:30-06:00" level=info msg="Tool required for upload" tool="esp8266:mkspiffs@2.5.0-4-b40a506"
+time="2021-06-08T07:15:30-06:00" level=info msg="Tool required for upload" tool="esp32:riscv32-esp-elf-gcc@gcc8_4_0-crosstool-ng-1.24.0-123-g64eb9ff"
+time="2021-06-08T07:15:30-06:00" level=info msg="Tool required for upload" tool="esp32:xtensa-esp32-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T07:15:30-06:00" level=info msg="Tool required for upload" tool="esp32:xtensa-esp32s2-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T07:15:30-06:00" level=info msg="Tool required for upload" tool="esp8266:xtensa-lx106-elf-gcc@2.5.0-4-b40a506"
+time="2021-06-08T07:15:30-06:00" level=info msg="Tool required for upload" tool="esp8266:mklittlefs@2.5.0-4-fe5bb56"
+time="2021-06-08T07:15:30-06:00" level=info msg="Tool required for upload" tool="esp32:esptool_py@3.0.0"
+time="2021-06-08T07:15:30-06:00" level=info msg="Tool required for upload" tool="builtin:ctags@5.8-arduino11"
+time="2021-06-08T07:15:30-06:00" level=info msg="Tool required for upload" tool="esp8266:python3@3.7.2-post1"
+time="2021-06-08T07:15:30-06:00" level=info msg="Performing 1200-bps touch reset on serial port COM4" phase="board reset"
+time="2021-06-08T07:15:30-06:00" level=info msg="Waiting for upload port..." phase="board reset"
+time="2021-06-08T07:15:40-06:00" level=info msg="No upload port found, using COM4 as fallback" phase="board reset"
+time="2021-06-08T07:15:47-06:00" level=error msg="Error during Upload: uploading error: uploading error: exit status 1"
+time="2021-06-08T07:17:31-06:00" level=info msg="Config file not found, using default values"
+time="2021-06-08T07:17:31-06:00" level=info msg="arduino-cli.exe version 0.18.3"
+time="2021-06-08T07:17:31-06:00" level=info msg="Checking signature" index="C:\\Users\\eric\\AppData\\Local\\Arduino15\\package_index.json" signatureFile="C:\\Users\\eric\\AppData\\Local\\Arduino15\\package_index.json.sig" trusted=true
+time="2021-06-08T07:17:31-06:00" level=info msg="Checking if CLI is Bundled into the IDE"
+time="2021-06-08T07:17:31-06:00" level=info msg="Loading hardware from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages"
+time="2021-06-08T07:17:31-06:00" level=info msg="Loading package adafruit from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware"
+time="2021-06-08T07:17:31-06:00" level=info msg="Loaded platform" platform="adafruit:avr@1.4.13"
+time="2021-06-08T07:17:31-06:00" level=info msg="Loading package builtin from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin"
+time="2021-06-08T07:17:31-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+time="2021-06-08T07:17:31-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\builtin\\tools"
+time="2021-06-08T07:17:31-06:00" level=info msg="Loaded tool" tool="builtin:ctags@5.8-arduino11"
+time="2021-06-08T07:17:31-06:00" level=info msg="Loaded tool" tool="builtin:serial-discovery@1.2.1"
+time="2021-06-08T07:17:31-06:00" level=info msg="Loading package esp32 from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware"
+time="2021-06-08T07:17:31-06:00" level=info msg="Loaded platform" platform="esp32:esp32@2.0.0-alpha1"
+time="2021-06-08T07:17:31-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\tools"
+time="2021-06-08T07:17:31-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\tools"
+time="2021-06-08T07:17:31-06:00" level=info msg="Loaded tool" tool="esp32:esptool_py@3.0.0"
+time="2021-06-08T07:17:31-06:00" level=info msg="Loaded tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2021-06-08T07:17:31-06:00" level=info msg="Loaded tool" tool="esp32:mkspiffs@0.2.3"
+time="2021-06-08T07:17:31-06:00" level=info msg="Loaded tool" tool="esp32:riscv32-esp-elf-gcc@gcc8_4_0-crosstool-ng-1.24.0-123-g64eb9ff"
+time="2021-06-08T07:17:31-06:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T07:17:31-06:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32s2-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T07:17:31-06:00" level=info msg="Loading package esp8266 from: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware"
+time="2021-06-08T07:17:31-06:00" level=info msg="Loaded platform" platform="esp8266:esp8266@2.7.4"
+time="2021-06-08T07:17:31-06:00" level=info msg="Checking existence of 'tools' path: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools"
+time="2021-06-08T07:17:31-06:00" level=info msg="Loading tools from dir: C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools"
+time="2021-06-08T07:17:31-06:00" level=info msg="Loaded tool" tool="esp8266:mklittlefs@2.5.0-4-fe5bb56"
+time="2021-06-08T07:17:31-06:00" level=info msg="Loaded tool" tool="esp8266:mkspiffs@2.5.0-4-b40a506"
+time="2021-06-08T07:17:31-06:00" level=info msg="Loaded tool" tool="esp8266:python3@3.7.2-post1"
+time="2021-06-08T07:17:31-06:00" level=info msg="Loaded tool" tool="esp8266:xtensa-lx106-elf-gcc@2.5.0-4-b40a506"
+time="2021-06-08T07:17:31-06:00" level=info msg="Adding libraries dir" dir="\\\\hiller.pro\\users\\eric\\Documents\\Arduino\\libraries" location=user
+time="2021-06-08T07:17:31-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\avr\\1.4.13\\libraries" location=platform
+time="2021-06-08T07:17:31-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.0-alpha1\\libraries" location=platform
+time="2021-06-08T07:17:31-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.7.4\\libraries" location=platform
+time="2021-06-08T07:17:31-06:00" level=info msg="inventory.Store.ConfigFileUsed() C:\\Users\\eric\\AppData\\Local\\Arduino15\\inventory.yaml"
+time="2021-06-08T07:17:31-06:00" level=info msg="inventory.Store.ConfigFileUsed() C:\\Users\\eric\\AppData\\Local\\Arduino15\\inventory.yaml"
+time="2021-06-08T07:17:31-06:00" level=info msg="Searching tools required for board esp32:esp32:adafruit_metro_esp32s2"
+time="2021-06-08T07:17:31-06:00" level=info msg="Adding libraries dir" dir="C:\\Program Files (x86)\\Arduino\\libraries" location=ide
+time="2021-06-08T07:17:31-06:00" level=info msg="Adding libraries dir" dir="C:\\Users\\eric\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.0-alpha1\\libraries" location=platform
+time="2021-06-08T07:17:31-06:00" level=info msg="Adding libraries dir" dir="\\\\hiller.pro\\users\\eric\\Documents\\Arduino\\libraries" location=user
+time="2021-06-08T07:17:32-06:00" level=info msg="Resolving include TFT_eSPI.h for arch esp32"
+time="2021-06-08T07:17:32-06:00" level=info msg="  found better lib" lib=TFT_eSPI prio=5E0
+time="2021-06-08T07:17:33-06:00" level=info msg="Resolving include SPI.h for arch esp32"
+time="2021-06-08T07:17:33-06:00" level=info msg="  found better lib" lib=SPI prio=5E8
+time="2021-06-08T07:17:34-06:00" level=info msg="Resolving include FS.h for arch esp32"
+time="2021-06-08T07:17:34-06:00" level=info msg="  found better lib" lib=FS prio=5E8
+time="2021-06-08T07:17:35-06:00" level=info msg="Resolving include SPIFFS.h for arch esp32"
+time="2021-06-08T07:17:35-06:00" level=info msg="  found better lib" lib=SPIFFS prio=5E8
+time="2021-06-08T07:17:37-06:00" level=info msg="Resolving include Adafruit_MLX90640.h for arch esp32"
+time="2021-06-08T07:17:37-06:00" level=info msg="  found better lib" lib=Adafruit_MLX90640 prio=5E0
+time="2021-06-08T07:17:39-06:00" level=info msg="Resolving include Adafruit_I2CDevice.h for arch esp32"
+time="2021-06-08T07:17:39-06:00" level=info msg="  found better lib" lib=Adafruit_BusIO prio=3EC
+time="2021-06-08T07:17:40-06:00" level=info msg="Resolving include Wire.h for arch esp32"
+time="2021-06-08T07:17:40-06:00" level=info msg="  found better lib" lib=Wire prio=5E8
+time="2021-06-08T07:17:48-06:00" level=info msg="Searching tools required for board esp32:esp32:adafruit_metro_esp32s2"
+time="2021-06-08T07:17:48-06:00" level=info msg="Tool required for upload" tool="esp32:riscv32-esp-elf-gcc@gcc8_4_0-crosstool-ng-1.24.0-123-g64eb9ff"
+time="2021-06-08T07:17:48-06:00" level=info msg="Tool required for upload" tool="esp32:xtensa-esp32s2-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T07:17:48-06:00" level=info msg="Tool required for upload" tool="esp8266:xtensa-lx106-elf-gcc@2.5.0-4-b40a506"
+time="2021-06-08T07:17:48-06:00" level=info msg="Tool required for upload" tool="builtin:ctags@5.8-arduino11"
+time="2021-06-08T07:17:48-06:00" level=info msg="Tool required for upload" tool="builtin:serial-discovery@1.2.1"
+time="2021-06-08T07:17:48-06:00" level=info msg="Tool required for upload" tool="esp8266:mkspiffs@2.5.0-4-b40a506"
+time="2021-06-08T07:17:48-06:00" level=info msg="Tool required for upload" tool="esp32:xtensa-esp32-elf-gcc@gcc8_4_0-esp-2020r3"
+time="2021-06-08T07:17:48-06:00" level=info msg="Tool required for upload" tool="esp32:esptool_py@3.0.0"
+time="2021-06-08T07:17:48-06:00" level=info msg="Tool required for upload" tool="esp8266:mklittlefs@2.5.0-4-fe5bb56"
+time="2021-06-08T07:17:48-06:00" level=info msg="Tool required for upload" tool="esp8266:python3@3.7.2-post1"
+time="2021-06-08T07:17:48-06:00" level=info msg="Performing 1200-bps touch reset on serial port COM4" phase="board reset"
+time="2021-06-08T07:17:49-06:00" level=info msg="Waiting for upload port..." phase="board reset"
+time="2021-06-08T07:17:59-06:00" level=info msg="No upload port found, using COM4 as fallback" phase="board reset"
+time="2021-06-08T07:18:06-06:00" level=error msg="Error during Upload: uploading error: uploading error: exit status 1"
